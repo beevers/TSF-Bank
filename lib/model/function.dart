@@ -28,13 +28,6 @@ Future<void> insert() async {
   Future<List> query() async {
     final allRows = await dbHelper.queryAllRows();
     return allRows;
-    // newRow = allRows;
-    // print("this $newRow");
-    // //create a list that will be passed to the customer list screen and use [...allRows]
-    // debugPrint('query all rows:');
-    // for (final row in allRows) {
-    //   debugPrint(row.toString());
-    // }
   }
 
   void update(int worth,int debit) async {
@@ -73,31 +66,6 @@ Future<void> insertTransfers(String name,String phone, String amount) async {
   Future<List> queryTransfer() async {
     final allRows = await dbHelper.queryAllTransfer();
     return allRows;
-    // newRow = allRows;
-    // print("this $newRow");
-    // //create a list that will be passed to the customer list screen and use [...allRows]
-    // debugPrint('query all rows:');
-    // for (final row in allRows) {
-    //   debugPrint(row.toString());
-    // }
   }
 
-  // void updateTransfer() async {
-  //   // row to update
-  //   Map<String, dynamic> row = {
-  //     DatabaseHelper.columnId: 6,
-  //     DatabaseHelper.columnName: 'Mahmud Hassan',
-  //     DatabaseHelper.columnEmail: "bob2@gmail.com",
-  //     DatabaseHelper.columnPhone: 22225570361,
-  //     DatabaseHelper.columnBalance: 6000.00
-  //   };
-  //   final rowsAffected = await dbHelper.update(row);
-  //   debugPrint('updated $rowsAffected row(s)');
-  // }
-
-  // void deleteTransfer() async {
-  //   // Assuming that the number of rows is the id for the last row.
-  //   final id = await dbHelper.queryRowCount();
-  //   final rowsDeleted = await dbHelper.delete(id);
-  //   debugPrint('deleted $rowsDeleted row(s): row $id');
-  // }
+ 
