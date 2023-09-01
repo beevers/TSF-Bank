@@ -1,16 +1,12 @@
 # tsf_bank
 
-A simple mobile app with upto 10 users in sqlite database consisting of users details and transfer details .
+I took charge of developing a sophisticated bank app that boasts a pleasing UI. Leveraging SQLITE as the storage medium, the app offers seamleass fund transfer among existing users, along with comprehensive user profile views.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
 
 ## Packages used:
 - sqflite
-- flutter_laravel_form_validation
+- flutter_laravel_form_validation e.t.c
 
 
 ## screenshots
